@@ -23,8 +23,7 @@ public final class WhosNotSleeping extends JavaPlugin implements Listener {
         saveDefaultConfig();
 
         System.out.println("WhosNotSleeping has started.");
-        Boolean needConf = getConfig().getBoolean("needPerms");
-        System.out.println("Do need perms to execute who is in bed: " + needConf);
+        System.out.println("[WhosNotSleeping] Do need perms to execute who is in bed: " + getConfig().getBoolean("needPerms"));
 
 
     }
