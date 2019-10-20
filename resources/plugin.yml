@@ -1,0 +1,11 @@
+name: WhosNotSleeping
+version: ${project.version}
+main: com.protonmail.theliverman.whosnotsleeping.WhosNotSleeping
+api-version: 1.13
+authors: [theliverman]
+description: A plugin to check who is not in bed
+commands:
+  notinbed:
+    description: Check who's not in bed.
+  whosinbed:
+    description: Check who is in bed.
